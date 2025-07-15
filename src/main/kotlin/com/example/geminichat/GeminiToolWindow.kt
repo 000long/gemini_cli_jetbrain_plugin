@@ -25,7 +25,7 @@ class GeminiToolWindow(toolWindow: ToolWindow, private val project: Project) {
     private val submitButton = javax.swing.JButton("Submit")
     private val panel = JPanel(BorderLayout())
     
-    private val geminiApiKey = "AIzaSyDGpakhXqcLeokl_FXavDnqSiSAm4FosGI" 
+    private val geminiApiKey = ""
     private val proxyUrl = "http://127.0.0.1:7897"
     
     private val markdownParser = Parser.builder().build()
