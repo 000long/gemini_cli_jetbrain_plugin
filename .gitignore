@@ -1,0 +1,54 @@
+ # Created by .ignore support plugin (hsz.mobi)
+### IntelliJ ###
+.idea/
+*.iml
+*.iws
+out/
+gen/
+build/
+.gradle/
+
+### Operating System Files ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+### Gradle ###
+*.jar
+*.war
+*.ear
+*.class
+
+# Log files
+*.log
+
+# Build artifacts
+target/
+.DS_Store
+*.ipr
+
+# IDE
+/cmake-build-debug/
+.idea
+
+# User-specific properties
+local.properties
+/gradle.properties
+/gradlew
+/gradlew.bat
+/gradle/
+*.jks
+
+# Environment variables
+.env
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties

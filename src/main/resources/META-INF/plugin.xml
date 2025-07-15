@@ -1,0 +1,21 @@
+ <idea-plugin>
+    <id>com.example.geminichat</id>
+    <name>Gemini Chat</name>
+    <vendor email="support@example.com" url="http://www.example.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    A PyCharm plugin to interact with Google's Gemini models using gemini-cli.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.python</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Gemini Chat" secondary="true" icon="AllIcons.General.Web" anchor="right"
+                    factoryClass="com.example.geminichat.GeminiToolWindowFactory"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>
